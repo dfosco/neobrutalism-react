@@ -119,6 +119,14 @@
 
   --default-border-width: 2px;
   --default-ring-width: var(--default-border-width);
+  --shadow-width: 4px;
+  --shadow-2xs: calc(var(--shadow-width) * 0.25) calc(var(--shadow-width) * 0.25) 0px var(--color-border);
+  --shadow-xs: calc(var(--shadow-width) * 0.5) calc(var(--shadow-width) * 0.5) 0px var(--color-border);
+  --shadow-sm: calc(var(--shadow-width) * 0.75) calc(var(--shadow-width) * 0.75) 0px var(--color-border);
+  --shadow-md: calc(var(--shadow-width) * 1) calc(var(--shadow-width) * 1) 0px var(--color-border);
+  --shadow-lg: calc(var(--shadow-width) * 1.5) calc(var(--shadow-width) * 1.5) 0px var(--color-border);
+  --shadow-xl: calc(var(--shadow-width) * 2) calc(var(--shadow-width) * 2) 0px var(--color-border);
+  --shadow-2xl: calc(var(--shadow-width) * 3) calc(var(--shadow-width) * 3) 0px var(--color-border);
 
   --animate-slide-gradient: slide-gradient 3s linear infinite;
   @keyframes slide-gradient {
