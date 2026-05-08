@@ -117,6 +117,9 @@
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
 
+  --default-border-width: 2px;
+  --default-ring-width: var(--default-border-width);
+
   --animate-slide-gradient: slide-gradient 3s linear infinite;
   @keyframes slide-gradient {
     0% {
