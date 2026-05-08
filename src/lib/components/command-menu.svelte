@@ -35,7 +35,7 @@
       <Button
         {...props}
         variant="ghost"
-        class="bg-muted relative h-8 w-full justify-start pl-3 font-medium shadow-none sm:pr-12 md:w-48 lg:w-56 xl:w-64 dark:bg-card"
+        class="bg-muted relative h-8 w-full justify-start pl-3 font-medium shadow-none sm:pr-12 md:w-48 lg:w-56 xl:w-64"
       >
         <span class="hidden lg:inline-flex">Search components...</span>
         <span class="inline-flex lg:hidden">Search...</span>
