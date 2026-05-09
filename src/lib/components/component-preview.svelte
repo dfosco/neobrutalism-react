@@ -66,6 +66,6 @@
         {/if}
       </div>
     </div>
-    <CodeBlock class="rounded-none" {name} {children} />
+    <CodeBlock class="border-0 rounded-none" {name} {children} />
   </div>
 </div>

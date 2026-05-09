@@ -58,7 +58,7 @@
   });
 </script>
 
-<div data-slot="code" class={['relative overflow-hidden rounded-lg [&_pre]:max-h-100', className]}>
+<div data-slot="code" class={['border relative overflow-hidden rounded-lg [&_pre]:max-h-100', className]}>
   {#if children}
     {@render children()}
   {:else if displaySource}
@@ -66,7 +66,7 @@
       data-slot="copy-button"
       size="icon"
       variant="ghost"
-      class="absolute inset-e-2 top-3 z-10 size-7 bg-primary-foreground text-muted-foreground hover:opacity-100 focus-visible:opacity-100"
+      class="absolute inset-e-2 top-3 z-10 size-7 text-muted-foreground hover:opacity-100 focus-visible:opacity-100"
       onclick={() => copySource && copyToClipboard(copySource)}
     >
       <span class="sr-only">Copy</span>
