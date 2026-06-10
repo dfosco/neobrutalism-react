@@ -1,1 +1,3 @@
-export { default as Spinner } from "./spinner.svelte";
+import Spinner from "./spinner";
+
+export { Spinner, Spinner as Root };

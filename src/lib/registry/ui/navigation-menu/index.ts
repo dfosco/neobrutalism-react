@@ -1,28 +1,28 @@
-import Root from "./navigation-menu.svelte";
-import Content from "./navigation-menu-content.svelte";
-import Indicator from "./navigation-menu-indicator.svelte";
-import Item from "./navigation-menu-item.svelte";
-import Link from "./navigation-menu-link.svelte";
-import List from "./navigation-menu-list.svelte";
-import Trigger from "./navigation-menu-trigger.svelte";
-import Viewport from "./navigation-menu-viewport.svelte";
+import { NavigationMenu } from "./navigation-menu";
+import { NavigationMenuContent } from "./navigation-menu-content";
+import { NavigationMenuIndicator } from "./navigation-menu-indicator";
+import { NavigationMenuItem } from "./navigation-menu-item";
+import { NavigationMenuLink } from "./navigation-menu-link";
+import { NavigationMenuList } from "./navigation-menu-list";
+import { NavigationMenuTrigger } from "./navigation-menu-trigger";
+import { NavigationMenuViewport } from "./navigation-menu-viewport";
 
 export {
-	Root,
-	Content,
-	Indicator,
-	Item,
-	Link,
-	List,
-	Trigger,
-	Viewport,
-	//
-	Root as NavigationMenuRoot,
-	Content as NavigationMenuContent,
-	Indicator as NavigationMenuIndicator,
-	Item as NavigationMenuItem,
-	Link as NavigationMenuLink,
-	List as NavigationMenuList,
-	Trigger as NavigationMenuTrigger,
-	Viewport as NavigationMenuViewport,
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+  NavigationMenu as Root,
+  NavigationMenuContent as Content,
+  NavigationMenuIndicator as Indicator,
+  NavigationMenuItem as Item,
+  NavigationMenuLink as Link,
+  NavigationMenuList as List,
+  NavigationMenuTrigger as Trigger,
+  NavigationMenuViewport as Viewport,
 };
+export { navigationMenuTriggerStyle } from "./navigation-menu-trigger";

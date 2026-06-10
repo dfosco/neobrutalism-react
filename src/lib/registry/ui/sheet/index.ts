@@ -1,34 +1,33 @@
-import Root from "./sheet.svelte";
-import Portal from "./sheet-portal.svelte";
-import Trigger from "./sheet-trigger.svelte";
-import Close from "./sheet-close.svelte";
-import Overlay from "./sheet-overlay.svelte";
-import Content from "./sheet-content.svelte";
-import Header from "./sheet-header.svelte";
-import Footer from "./sheet-footer.svelte";
-import Title from "./sheet-title.svelte";
-import Description from "./sheet-description.svelte";
+import Sheet from "./sheet";
+import SheetPortal from "./sheet-portal";
+import SheetTrigger from "./sheet-trigger";
+import SheetClose from "./sheet-close";
+import SheetOverlay from "./sheet-overlay";
+import SheetContent from "./sheet-content";
+import SheetHeader from "./sheet-header";
+import SheetFooter from "./sheet-footer";
+import SheetTitle from "./sheet-title";
+import SheetDescription from "./sheet-description";
 
 export {
-	Root,
-	Close,
-	Trigger,
-	Portal,
-	Overlay,
-	Content,
-	Header,
-	Footer,
-	Title,
-	Description,
-	//
-	Root as Sheet,
-	Close as SheetClose,
-	Trigger as SheetTrigger,
-	Portal as SheetPortal,
-	Overlay as SheetOverlay,
-	Content as SheetContent,
-	Header as SheetHeader,
-	Footer as SheetFooter,
-	Title as SheetTitle,
-	Description as SheetDescription,
+  Sheet,
+  SheetClose,
+  SheetTrigger,
+  SheetPortal,
+  SheetOverlay,
+  SheetContent,
+  SheetHeader,
+  SheetFooter,
+  SheetTitle,
+  SheetDescription,
+  Sheet as Root,
+  SheetClose as Close,
+  SheetTrigger as Trigger,
+  SheetPortal as Portal,
+  SheetOverlay as Overlay,
+  SheetContent as Content,
+  SheetHeader as Header,
+  SheetFooter as Footer,
+  SheetTitle as Title,
+  SheetDescription as Description,
 };

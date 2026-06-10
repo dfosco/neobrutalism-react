@@ -1,37 +1,36 @@
-import Root from "./select.svelte";
-import Group from "./select-group.svelte";
-import Label from "./select-label.svelte";
-import Item from "./select-item.svelte";
-import Content from "./select-content.svelte";
-import Trigger from "./select-trigger.svelte";
-import Separator from "./select-separator.svelte";
-import ScrollDownButton from "./select-scroll-down-button.svelte";
-import ScrollUpButton from "./select-scroll-up-button.svelte";
-import GroupHeading from "./select-group-heading.svelte";
-import Portal from "./select-portal.svelte";
+import { Select } from "./select";
+import { SelectContent } from "./select-content";
+import { SelectGroup } from "./select-group";
+import { SelectGroupHeading } from "./select-group-heading";
+import { SelectItem } from "./select-item";
+import { SelectLabel } from "./select-label";
+import { SelectPortal } from "./select-portal";
+import { SelectScrollDownButton } from "./select-scroll-down-button";
+import { SelectScrollUpButton } from "./select-scroll-up-button";
+import { SelectSeparator } from "./select-separator";
+import { SelectTrigger } from "./select-trigger";
 
 export {
-	Root,
-	Group,
-	Label,
-	Item,
-	Content,
-	Trigger,
-	Separator,
-	ScrollDownButton,
-	ScrollUpButton,
-	GroupHeading,
-	Portal,
-	//
-	Root as Select,
-	Group as SelectGroup,
-	Label as SelectLabel,
-	Item as SelectItem,
-	Content as SelectContent,
-	Trigger as SelectTrigger,
-	Separator as SelectSeparator,
-	ScrollDownButton as SelectScrollDownButton,
-	ScrollUpButton as SelectScrollUpButton,
-	GroupHeading as SelectGroupHeading,
-	Portal as SelectPortal,
+  Select,
+  SelectGroup,
+  SelectLabel,
+  SelectItem,
+  SelectContent,
+  SelectTrigger,
+  SelectSeparator,
+  SelectScrollDownButton,
+  SelectScrollUpButton,
+  SelectGroupHeading,
+  SelectPortal,
+  Select as Root,
+  SelectGroup as Group,
+  SelectLabel as Label,
+  SelectItem as Item,
+  SelectContent as Content,
+  SelectTrigger as Trigger,
+  SelectSeparator as Separator,
+  SelectScrollDownButton as ScrollDownButton,
+  SelectScrollUpButton as ScrollUpButton,
+  SelectGroupHeading as GroupHeading,
+  SelectPortal as Portal,
 };

@@ -1,7 +1,7 @@
 <script lang="ts">
   import * as NavigationMenu from "$lib/registry/ui/navigation-menu/index.js";
   import { cn } from "$lib/utils.js";
-  import { navigationMenuTriggerStyle } from "$lib/registry/ui/navigation-menu/navigation-menu-trigger.svelte";
+  import { navigationMenuTriggerStyle } from "$lib/registry/ui/navigation-menu/navigation-menu-trigger";
   import type { HTMLAttributes } from "svelte/elements";
   import CircleHelpIcon from "@lucide/svelte/icons/circle-help";
   import CircleIcon from "@lucide/svelte/icons/circle";

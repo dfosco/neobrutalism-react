@@ -1,54 +1,54 @@
-import Root from "./dropdown-menu.svelte";
-import Sub from "./dropdown-menu-sub.svelte";
-import CheckboxGroup from "./dropdown-menu-checkbox-group.svelte";
-import CheckboxItem from "./dropdown-menu-checkbox-item.svelte";
-import Content from "./dropdown-menu-content.svelte";
-import Group from "./dropdown-menu-group.svelte";
-import Item from "./dropdown-menu-item.svelte";
-import Label from "./dropdown-menu-label.svelte";
-import RadioGroup from "./dropdown-menu-radio-group.svelte";
-import RadioItem from "./dropdown-menu-radio-item.svelte";
-import Separator from "./dropdown-menu-separator.svelte";
-import Shortcut from "./dropdown-menu-shortcut.svelte";
-import Trigger from "./dropdown-menu-trigger.svelte";
-import SubContent from "./dropdown-menu-sub-content.svelte";
-import SubTrigger from "./dropdown-menu-sub-trigger.svelte";
-import GroupHeading from "./dropdown-menu-group-heading.svelte";
-import Portal from "./dropdown-menu-portal.svelte";
+import { DropdownMenu } from "./dropdown-menu";
+import { DropdownMenuCheckboxGroup } from "./dropdown-menu-checkbox-group";
+import { DropdownMenuCheckboxItem } from "./dropdown-menu-checkbox-item";
+import { DropdownMenuContent } from "./dropdown-menu-content";
+import { DropdownMenuGroup } from "./dropdown-menu-group";
+import { DropdownMenuGroupHeading } from "./dropdown-menu-group-heading";
+import { DropdownMenuItem } from "./dropdown-menu-item";
+import { DropdownMenuLabel } from "./dropdown-menu-label";
+import { DropdownMenuPortal } from "./dropdown-menu-portal";
+import { DropdownMenuRadioGroup } from "./dropdown-menu-radio-group";
+import { DropdownMenuRadioItem } from "./dropdown-menu-radio-item";
+import { DropdownMenuSeparator } from "./dropdown-menu-separator";
+import { DropdownMenuShortcut } from "./dropdown-menu-shortcut";
+import { DropdownMenuSub } from "./dropdown-menu-sub";
+import { DropdownMenuSubContent } from "./dropdown-menu-sub-content";
+import { DropdownMenuSubTrigger } from "./dropdown-menu-sub-trigger";
+import { DropdownMenuTrigger } from "./dropdown-menu-trigger";
 
 export {
-	CheckboxGroup,
-	CheckboxItem,
-	Content,
-	Portal,
-	Root as DropdownMenu,
-	CheckboxGroup as DropdownMenuCheckboxGroup,
-	CheckboxItem as DropdownMenuCheckboxItem,
-	Content as DropdownMenuContent,
-	Portal as DropdownMenuPortal,
-	Group as DropdownMenuGroup,
-	Item as DropdownMenuItem,
-	Label as DropdownMenuLabel,
-	RadioGroup as DropdownMenuRadioGroup,
-	RadioItem as DropdownMenuRadioItem,
-	Separator as DropdownMenuSeparator,
-	Shortcut as DropdownMenuShortcut,
-	Sub as DropdownMenuSub,
-	SubContent as DropdownMenuSubContent,
-	SubTrigger as DropdownMenuSubTrigger,
-	Trigger as DropdownMenuTrigger,
-	GroupHeading as DropdownMenuGroupHeading,
-	Group,
-	GroupHeading,
-	Item,
-	Label,
-	RadioGroup,
-	RadioItem,
-	Root,
-	Separator,
-	Shortcut,
-	Sub,
-	SubContent,
-	SubTrigger,
-	Trigger,
+  DropdownMenu,
+  DropdownMenuCheckboxGroup,
+  DropdownMenuCheckboxItem,
+  DropdownMenuContent,
+  DropdownMenuPortal,
+  DropdownMenuGroup,
+  DropdownMenuGroupHeading,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+  DropdownMenu as Root,
+  DropdownMenuCheckboxGroup as CheckboxGroup,
+  DropdownMenuCheckboxItem as CheckboxItem,
+  DropdownMenuContent as Content,
+  DropdownMenuPortal as Portal,
+  DropdownMenuGroup as Group,
+  DropdownMenuGroupHeading as GroupHeading,
+  DropdownMenuItem as Item,
+  DropdownMenuLabel as Label,
+  DropdownMenuRadioGroup as RadioGroup,
+  DropdownMenuRadioItem as RadioItem,
+  DropdownMenuSeparator as Separator,
+  DropdownMenuShortcut as Shortcut,
+  DropdownMenuSub as Sub,
+  DropdownMenuSubContent as SubContent,
+  DropdownMenuSubTrigger as SubTrigger,
+  DropdownMenuTrigger as Trigger,
 };
