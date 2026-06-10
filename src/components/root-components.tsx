@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import AccordionDemo from "@/lib/registry/examples/accordion-demo";
 import AvatarDemo from "@/lib/registry/examples/avatar-demo";
 import BadgeDemo from "@/lib/registry/examples/badge-demo";
