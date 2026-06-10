@@ -1,8 +1,8 @@
 {
   "/_not-found/page": "/_not-found",
-  "/charts/page": "/charts",
   "/blocks/page": "/blocks",
   "/colors/page": "/colors",
+  "/charts/page": "/charts",
   "/page": "/",
   "/docs/[[...slug]]/page": "/docs/[[...slug]]"
 }

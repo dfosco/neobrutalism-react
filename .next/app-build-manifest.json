@@ -19,13 +19,6 @@
       "static/chunks/837-66278ae397d14c2a.js",
       "static/chunks/app/layout-c07ec7767b7beca9.js"
     ],
-    "/charts/page": [
-      "static/chunks/webpack-fd88e948d5fb849e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-1aac5df21ceca329.js",
-      "static/chunks/main-app-9d9d526d3a226d6b.js",
-      "static/chunks/app/charts/page-7df15dab7a4aa381.js"
-    ],
     "/blocks/page": [
       "static/chunks/webpack-fd88e948d5fb849e.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -39,6 +32,13 @@
       "static/chunks/255-1aac5df21ceca329.js",
       "static/chunks/main-app-9d9d526d3a226d6b.js",
       "static/chunks/app/colors/page-7df15dab7a4aa381.js"
+    ],
+    "/charts/page": [
+      "static/chunks/webpack-fd88e948d5fb849e.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-1aac5df21ceca329.js",
+      "static/chunks/main-app-9d9d526d3a226d6b.js",
+      "static/chunks/app/charts/page-7df15dab7a4aa381.js"
     ],
     "/page": [
       "static/chunks/webpack-fd88e948d5fb849e.js",
