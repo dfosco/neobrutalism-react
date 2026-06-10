@@ -1,7 +1,5 @@
-"use client";
-
 import * as React from "react";
-import Link from "next/link";
+import { Link } from "react-router";
 
 /**
  * Homepage component showcase.
@@ -11,7 +9,7 @@ export default function RootComponents() {
   return (
     <div className="flex flex-col items-center justify-center gap-4 py-12 text-center">
       <p className="text-muted-foreground">Component showcase coming soon.</p>
-      <Link href="/docs/components" className="text-sm underline underline-offset-4">
+      <Link to="/stickersheet" className="text-sm underline underline-offset-4">
         Browse all components →
       </Link>
     </div>

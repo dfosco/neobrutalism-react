@@ -1,9 +1,0 @@
-{
-  "/_not-found/page": "/_not-found",
-  "/charts/page": "/charts",
-  "/blocks/page": "/blocks",
-  "/colors/page": "/colors",
-  "/page": "/",
-  "/stickersheet/page": "/stickersheet",
-  "/docs/[[...slug]]/page": "/docs/[[...slug]]"
-}
