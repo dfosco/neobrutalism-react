@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/neobrutalism-react",
   "redirects": [
+    {
+      "source": "/neobrutalism-react/",
+      "destination": "/neobrutalism-react",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/neobrutalism-react/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
@@ -58,6 +66,12 @@
       "regex": "^/colors(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/colors(?:/)?$"
+    },
+    {
+      "page": "/stickersheet",
+      "regex": "^/stickersheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/stickersheet(?:/)?$"
     }
   ],
   "dataRoutes": [],

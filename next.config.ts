@@ -12,8 +12,15 @@ const withMDX = createMDX({
   },
 });
 
+const isGithubPages = process.env.GITHUB_PAGES === "true";
+
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
+  output: "export",
+  basePath: isGithubPages ? "/neobrutalism-react" : "",
+  images: {
+    unoptimized: true,
+  },
   experimental: {
     mdxRs: true,
   },
