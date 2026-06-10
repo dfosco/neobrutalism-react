@@ -1,0 +1,34 @@
+import * as React from "react";
+
+import * as Avatar from "@/lib/registry/ui/avatar";
+
+export default function AvatarDemo() {
+  return (
+    <div className="flex flex-row flex-wrap items-center gap-12">
+      <Avatar.Root>
+        <Avatar.Image src="https://github.com/shadcn.png" alt="@shadcn" />
+        <Avatar.Fallback>CN</Avatar.Fallback>
+      </Avatar.Root>
+      <Avatar.Root className="rounded-lg">
+        <Avatar.Image src="https://github.com/evilrabbit.png" alt="@evilrabbit" />
+        <Avatar.Fallback>ER</Avatar.Fallback>
+      </Avatar.Root>
+      <div
+        className="*:data-[slot=avatar]:ring-background flex -space-x-2 *:data-[slot=avatar]:ring-2 *:data-[slot=avatar]:grayscale"
+      >
+        <Avatar.Root>
+          <Avatar.Image src="https://github.com/shadcn.png" alt="@shadcn" />
+          <Avatar.Fallback>CN</Avatar.Fallback>
+        </Avatar.Root>
+        <Avatar.Root>
+          <Avatar.Image src="https://github.com/leerob.png" alt="@leerob" />
+          <Avatar.Fallback>LR</Avatar.Fallback>
+        </Avatar.Root>
+        <Avatar.Root>
+          <Avatar.Image src="https://github.com/evilrabbit.png" alt="@evilrabbit" />
+          <Avatar.Fallback>ER</Avatar.Fallback>
+        </Avatar.Root>
+      </div>
+    </div>
+  );
+}

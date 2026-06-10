@@ -1,7 +1,3 @@
-import Root from "./slider.svelte";
+import Slider from "./slider";
 
-export {
-	Root,
-	//
-	Root as Slider,
-};
+export { Slider, Slider as Root };

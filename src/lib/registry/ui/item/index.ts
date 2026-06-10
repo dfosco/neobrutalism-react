@@ -1,34 +1,33 @@
-import Root from "./item.svelte";
-import Group from "./item-group.svelte";
-import Separator from "./item-separator.svelte";
-import Header from "./item-header.svelte";
-import Footer from "./item-footer.svelte";
-import Content from "./item-content.svelte";
-import Title from "./item-title.svelte";
-import Description from "./item-description.svelte";
-import Actions from "./item-actions.svelte";
-import Media from "./item-media.svelte";
+import { Item } from "./item";
+import { ItemActions } from "./item-actions";
+import { ItemContent } from "./item-content";
+import { ItemDescription } from "./item-description";
+import { ItemFooter } from "./item-footer";
+import { ItemGroup } from "./item-group";
+import { ItemHeader } from "./item-header";
+import { ItemMedia } from "./item-media";
+import { ItemSeparator } from "./item-separator";
+import { ItemTitle } from "./item-title";
 
 export {
-	Root,
-	Group,
-	Separator,
-	Header,
-	Footer,
-	Content,
-	Title,
-	Description,
-	Actions,
-	Media,
-	//
-	Root as Item,
-	Group as ItemGroup,
-	Separator as ItemSeparator,
-	Header as ItemHeader,
-	Footer as ItemFooter,
-	Content as ItemContent,
-	Title as ItemTitle,
-	Description as ItemDescription,
-	Actions as ItemActions,
-	Media as ItemMedia,
+  Item,
+  ItemGroup,
+  ItemSeparator,
+  ItemHeader,
+  ItemFooter,
+  ItemContent,
+  ItemTitle,
+  ItemDescription,
+  ItemActions,
+  ItemMedia,
+  Item as Root,
+  ItemGroup as Group,
+  ItemSeparator as Separator,
+  ItemHeader as Header,
+  ItemFooter as Footer,
+  ItemContent as Content,
+  ItemTitle as Title,
+  ItemDescription as Description,
+  ItemActions as Actions,
+  ItemMedia as Media,
 };

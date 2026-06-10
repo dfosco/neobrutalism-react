@@ -1,7 +1,3 @@
-import Root from "./textarea.svelte";
+import Textarea from "./textarea";
 
-export {
-	Root,
-	//
-	Root as Textarea,
-};
+export { Textarea, Textarea as Root };

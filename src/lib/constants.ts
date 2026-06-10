@@ -1,4 +1,4 @@
 export const registryAddCommandPrefix =
-  'npx shadcn-svelte@latest add https://neobrutalism-svelte.flenze.com/r/';
+  'npx shadcn@latest add https://neobrutalism-react.vercel.app/r/';
 
-export const githubRepoUrl = 'https://github.com/olegpolin/neobrutalism-svelte';
+export const githubRepoUrl = 'https://github.com/dfosco/neobrutalism-react';

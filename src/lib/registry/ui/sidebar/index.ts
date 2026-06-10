@@ -1,75 +1,74 @@
-import { useSidebar } from "./context.svelte.js";
-import Content from "./sidebar-content.svelte";
-import Footer from "./sidebar-footer.svelte";
-import GroupAction from "./sidebar-group-action.svelte";
-import GroupContent from "./sidebar-group-content.svelte";
-import GroupLabel from "./sidebar-group-label.svelte";
-import Group from "./sidebar-group.svelte";
-import Header from "./sidebar-header.svelte";
-import Input from "./sidebar-input.svelte";
-import Inset from "./sidebar-inset.svelte";
-import MenuAction from "./sidebar-menu-action.svelte";
-import MenuBadge from "./sidebar-menu-badge.svelte";
-import MenuButton from "./sidebar-menu-button.svelte";
-import MenuItem from "./sidebar-menu-item.svelte";
-import MenuSkeleton from "./sidebar-menu-skeleton.svelte";
-import MenuSubButton from "./sidebar-menu-sub-button.svelte";
-import MenuSubItem from "./sidebar-menu-sub-item.svelte";
-import MenuSub from "./sidebar-menu-sub.svelte";
-import Menu from "./sidebar-menu.svelte";
-import Provider from "./sidebar-provider.svelte";
-import Rail from "./sidebar-rail.svelte";
-import Separator from "./sidebar-separator.svelte";
-import Trigger from "./sidebar-trigger.svelte";
-import Root from "./sidebar.svelte";
+import { useSidebar } from "./sidebar-context";
+import SidebarContent from "./sidebar-content";
+import SidebarFooter from "./sidebar-footer";
+import SidebarGroupAction from "./sidebar-group-action";
+import SidebarGroupContent from "./sidebar-group-content";
+import SidebarGroupLabel from "./sidebar-group-label";
+import SidebarGroup from "./sidebar-group";
+import SidebarHeader from "./sidebar-header";
+import SidebarInput from "./sidebar-input";
+import SidebarInset from "./sidebar-inset";
+import SidebarMenuAction from "./sidebar-menu-action";
+import SidebarMenuBadge from "./sidebar-menu-badge";
+import SidebarMenuButton from "./sidebar-menu-button";
+import SidebarMenuItem from "./sidebar-menu-item";
+import SidebarMenuSkeleton from "./sidebar-menu-skeleton";
+import SidebarMenuSubButton from "./sidebar-menu-sub-button";
+import SidebarMenuSubItem from "./sidebar-menu-sub-item";
+import SidebarMenuSub from "./sidebar-menu-sub";
+import SidebarMenu from "./sidebar-menu";
+import SidebarProvider from "./sidebar-provider";
+import SidebarRail from "./sidebar-rail";
+import SidebarSeparator from "./sidebar-separator";
+import SidebarTrigger from "./sidebar-trigger";
+import Sidebar from "./sidebar";
 
 export {
-	Content,
-	Footer,
-	Group,
-	GroupAction,
-	GroupContent,
-	GroupLabel,
-	Header,
-	Input,
-	Inset,
-	Menu,
-	MenuAction,
-	MenuBadge,
-	MenuButton,
-	MenuItem,
-	MenuSkeleton,
-	MenuSub,
-	MenuSubButton,
-	MenuSubItem,
-	Provider,
-	Rail,
-	Root,
-	Separator,
-	//
-	Root as Sidebar,
-	Content as SidebarContent,
-	Footer as SidebarFooter,
-	Group as SidebarGroup,
-	GroupAction as SidebarGroupAction,
-	GroupContent as SidebarGroupContent,
-	GroupLabel as SidebarGroupLabel,
-	Header as SidebarHeader,
-	Input as SidebarInput,
-	Inset as SidebarInset,
-	Menu as SidebarMenu,
-	MenuAction as SidebarMenuAction,
-	MenuBadge as SidebarMenuBadge,
-	MenuButton as SidebarMenuButton,
-	MenuItem as SidebarMenuItem,
-	MenuSkeleton as SidebarMenuSkeleton,
-	MenuSub as SidebarMenuSub,
-	MenuSubButton as SidebarMenuSubButton,
-	MenuSubItem as SidebarMenuSubItem,
-	Provider as SidebarProvider,
-	Rail as SidebarRail,
-	Separator as SidebarSeparator,
-	Trigger as SidebarTrigger,
-	Trigger,
-	useSidebar,
+  SidebarContent as Content,
+  SidebarFooter as Footer,
+  SidebarGroup as Group,
+  SidebarGroupAction as GroupAction,
+  SidebarGroupContent as GroupContent,
+  SidebarGroupLabel as GroupLabel,
+  SidebarHeader as Header,
+  SidebarInput as Input,
+  SidebarInset as Inset,
+  SidebarMenu as Menu,
+  SidebarMenuAction as MenuAction,
+  SidebarMenuBadge as MenuBadge,
+  SidebarMenuButton as MenuButton,
+  SidebarMenuItem as MenuItem,
+  SidebarMenuSkeleton as MenuSkeleton,
+  SidebarMenuSub as MenuSub,
+  SidebarMenuSubButton as MenuSubButton,
+  SidebarMenuSubItem as MenuSubItem,
+  SidebarProvider as Provider,
+  SidebarRail as Rail,
+  Sidebar as Root,
+  SidebarSeparator as Separator,
+  SidebarTrigger as Trigger,
+  Sidebar,
+  SidebarContent,
+  SidebarFooter,
+  SidebarGroup,
+  SidebarGroupAction,
+  SidebarGroupContent,
+  SidebarGroupLabel,
+  SidebarHeader,
+  SidebarInput,
+  SidebarInset,
+  SidebarMenu,
+  SidebarMenuAction,
+  SidebarMenuBadge,
+  SidebarMenuButton,
+  SidebarMenuItem,
+  SidebarMenuSkeleton,
+  SidebarMenuSub,
+  SidebarMenuSubButton,
+  SidebarMenuSubItem,
+  SidebarProvider,
+  SidebarRail,
+  SidebarSeparator,
+  SidebarTrigger,
+  useSidebar,
 };

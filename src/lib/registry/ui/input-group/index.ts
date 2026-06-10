@@ -1,22 +1,21 @@
-import Root from "./input-group.svelte";
-import Addon from "./input-group-addon.svelte";
-import Button from "./input-group-button.svelte";
-import Input from "./input-group-input.svelte";
-import Text from "./input-group-text.svelte";
-import Textarea from "./input-group-textarea.svelte";
+import { InputGroup } from "./input-group";
+import { InputGroupAddon } from "./input-group-addon";
+import { InputGroupButton } from "./input-group-button";
+import { InputGroupInput } from "./input-group-input";
+import { InputGroupText } from "./input-group-text";
+import { InputGroupTextarea } from "./input-group-textarea";
 
 export {
-	Root,
-	Addon,
-	Button,
-	Input,
-	Text,
-	Textarea,
-	//
-	Root as InputGroup,
-	Addon as InputGroupAddon,
-	Button as InputGroupButton,
-	Input as InputGroupInput,
-	Text as InputGroupText,
-	Textarea as InputGroupTextarea,
+  InputGroup,
+  InputGroupAddon,
+  InputGroupButton,
+  InputGroupInput,
+  InputGroupText,
+  InputGroupTextarea,
+  InputGroup as Root,
+  InputGroupAddon as Addon,
+  InputGroupButton as Button,
+  InputGroupInput as Input,
+  InputGroupText as Text,
+  InputGroupTextarea as Textarea,
 };

@@ -1,7 +1,4 @@
-import Root from "./input.svelte";
+import { Input } from "./input";
 
-export {
-	Root,
-	//
-	Root as Input,
-};
+export { Input, Input as Root };
+export type { InputProps } from "./input";
