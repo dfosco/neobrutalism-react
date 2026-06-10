@@ -74,7 +74,7 @@ const Button = React.forwardRef<HTMLButtonElement | HTMLAnchorElement, ButtonPro
       );
     }
 
-    const { type = "button" as const, ...buttonProps } = props as React.ButtonHTMLAttributes<HTMLButtonElement>;
+    const { type = "button", ...buttonProps } = props as React.ButtonHTMLAttributes<HTMLButtonElement>;
 
     return (
       <button
